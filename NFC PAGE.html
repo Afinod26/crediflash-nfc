@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta etiqueta crucial para que se adapte perfectamente a las pantallas de los celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crediflash - Contacto</title>
+    
+    <!-- Fuente Roboto de Google (clara y profesional para pantallas) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Librería de iconos gratuitos (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Contenedor principal estilo tarjeta */
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        
+        .header-title {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        h1 {
+            font-size: 26px;
+            color: #1c1e21;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        
+        .subtitle {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 35px;
+            line-height: 1.5;
+        }
+        
+        /* Estructura base de los botones */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            transition: opacity 0.2s, transform 0.1s;
+        }
+        
+        /* Efecto al presionar el botón en el celular */
+        .btn:active {
+            transform: scale(0.98);
+            opacity: 0.9;
+        }
+        
+        /* Estilo de los iconos dentro de los botones */
+        .btn i {
+            font-size: 26px;
+            margin-right: 15px;
+            width: 35px;
+            text-align: center;
+        }
+        
+        /* Colores específicos de cada acción */
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-facebook { background-color: #1877F2; }
+        .btn-phone    { background-color: #008080; } /* Verde azulado profesional */
+        .btn-email    { background-color: #EA4335; }
+        .btn-web      { background-color: #34495E; } /* Azul grisáceo oscuro */
+        
+        /* Pie de página */
+        .footer {
+            margin-top: 35px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .footer strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #1c1e21;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-title">Crediflash</div>
+        
+        <h1>¡Tus asesores de confianza en Puebla!</h1>
+        <p class="subtitle">Toca cualquiera de los botones de abajo para comunicarte con nosotros de inmediato.</p>
+        
+        <!-- El enlace de WhatsApp ya tiene el número configurado con el formato correcto -->
+        <a href="https://wa.me/5212227671837" class="btn btn-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
+        </a>
+        
+        <!-- Reemplaza el # por el enlace real a tu página de Facebook -->
+        <a href="#" class="btn btn-facebook" target="_blank">
+            <i class="fab fa-facebook"></i> Visita nuestro Facebook
+        </a>
+        
+        <!-- El enlace "tel:" abre directamente el teclado de marcación en el celular -->
+        <a href="tel:+5212227671837" class="btn btn-phone">
+            <i class="fas fa-phone-alt"></i> Llámanos ahora +52 1 222 767 1837
+        </a>
+        
+        <!-- Reemplaza correo@crediflash.com con el correo real de la empresa -->
+        <a href="mailto:correo@crediflash.com" class="btn btn-email">
+            <i class="fas fa-envelope"></i> Envíanos un correo
+        </a>
+        
+        <!-- Reemplaza el # por el enlace de tu sitio web principal -->
+        <a href="#" class="btn btn-web" target="_blank">
+            <i class="fas fa-globe"></i> Visita nuestra página web
+        </a>
+
+        <div class="footer">
+            <strong>¿Necesitas ayuda?</strong>
+            Llámanos directamente al +52 1 222 767 1837
+        </div>
+    </div>
+
+</body>
+</html>
